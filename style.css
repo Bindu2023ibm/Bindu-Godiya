@@ -1,0 +1,85 @@
+body{
+  background-image: url(foster-lake.jpeg);
+}
+body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 14px;
+    color: #333333;
+    background-color: #F9F9F9;
+  }
+  
+  p {
+    width: 80%;
+  }
+  
+  h1 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+  }
+  
+  h2 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: bold;
+    color: #000000;
+    border-bottom: 1px solid #C6EC8C;
+  }
+  
+  /* link styles */
+  a:link {
+    color: #00CC00;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  
+  a:visited {
+    color: #00BB00;
+  }
+  a:hover {
+    color: #44bb00;
+  }
+  
+  /* menu link styles */
+  li {
+    display: inline-block;
+    list-style-type: none;
+    line-height: 120%;
+    padding-left: 2px;
+    padding-right: 20px;
+  }
+  
+  li a:visited {
+    color: #00CC00;
+  }
+  
+  li a:hover {
+    color: #44BB00;
+  }
+  
+  /******* Container styles ****/
+  #container {
+    width: 600px;
+    position: relative;
+    padding: 20px 0 20px 0; /*top right bottom left*/
+    margin: 10px auto;
+  }
+  
+  #menu {
+    position: relative;
+    left: -45px;
+  }
+  
+  #header {
+    text-align: center;
+  }
+  
+  #footer {
+    padding: 50px 0 10px 0; /*top right bottom left*/
+  }
+
+  body{
+    background-image: url(foster-lake.jpg);
+    background-size: cover;
+  }
+  
